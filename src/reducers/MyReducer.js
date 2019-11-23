@@ -11,6 +11,7 @@ const initialState ={
 // Reducer are pure function, it will return modified copy of the state.
 export default function AuthReducer (state = initialState, action){
 
+
     switch(action.type){
 
         case LIST_PENDING:
